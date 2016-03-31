@@ -1,0 +1,29 @@
+{
+  "name": "koa-ship-sample",
+  "version": "0.0.1",
+  "description": "Sample of koa-ship framework",
+  "dependencies": {
+    "koa-ship": "*",    
+    "debug": "*",
+    "node-next": "0.0.2"
+  },
+  "devDependencies": {
+    "shipit-deploy": "*",
+    "shipit-shared": "^4.2.0",
+
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "mocha-clean": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "DEBUG=koa-ship nodemon app.js",
+    "update": "rm -rf node_modules/koa-ship && npm install"
+  },
+  "homepage": "http://github.com/seandou/koa-ship-sample.git",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/seandou/koa-ship-sample.git"
+  },
+  "license": "MIT"
+}
